@@ -1,13 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Text, View } from 'react-native';
-import { personalizare } from './theme/mainTheme';
+import { Provider as PaperProvider } from 'react-native-paper';
+import App from './AppEntry';
 
-export default function App() {
-  return (
-    <View style={personalizare.container}>
-      <Text>BLABLA!</Text>
-      <StatusBar style="auto" backgroundColor='gray'/>
-    </View>
-  );
-}
+export default function Main() {
+    return (
+        <PaperProvider>
+            <App />
+        </PaperProvider>
+      
+    );
+  }
