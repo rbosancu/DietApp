@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "DietApp",
+    "slug": "DietApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
