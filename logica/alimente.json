@@ -1,0 +1,40 @@
+export const alimente = {
+    mic_dejun:
+            [
+                {
+                    nume: "Iaurt grecesc",
+                    greutate: 100,
+                    calorii: 48,
+                    carbohidrati: 4,
+                    proteine: 9, 
+                },
+                {
+                    nume: "Fulgi de Secara",
+                    greutate: 100,
+                    calorii: 333,
+                    carbohidrati: 58,
+                    proteine: 12,
+                },
+                {
+                    nume: "Nectarine",
+                    greutate: 100,
+                    calorii: 44,
+                    carbohidrati: 11,
+                    process: 1,
+                },
+                {
+                    nume: "Mere rosii",
+                    greutate: 100,
+                    calorii: 24,
+                    carbohidrati: 14,
+                    proteine: 0,
+                },
+            ],
+    pranz:
+            [
+                
+            ],
+    cina:   [
+
+            ],
+}
